@@ -1,0 +1,27 @@
+# Core agent framework
+langgraph>=0.2.0
+langchain-core>=0.3.0
+langchain-ollama>=0.2.0
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+ollama>=0.3.0
+
+# API server
+fastapi>=0.110.0
+uvicorn>=0.29.0
+httpx>=0.27.0
+
+# Configuration / validation
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# Tools
+duckduckgo-search>=6.0.0
+beautifulsoup4>=4.12.0
+
+# Testing
+pytest>=8.0.0
+
+# CLI helpers (used by legacy main.py)
+rich>=13.0.0
+typer>=0.12.0
