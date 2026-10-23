@@ -266,3 +266,6 @@ removed with:
 ```powershell
 Remove-Item -Recurse langgraph_agent, main.py
 ```
+## Quick Run 
+
+first terminal activate venv ,start ollama serve(ollama server),python run.py  and in another terminal start open-webui serve(openweb-ui server), now open browser http://localhost:8080/ this link 
